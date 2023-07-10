@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  hugo-nginx:
+    command: ["nginx", "-g", "daemon off;"]
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
