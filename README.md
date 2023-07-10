@@ -5,7 +5,9 @@ Running this requires Docker and Docker Compose installed.
 
 ## Local build and run.
 
-`$ docker-compose build`
-`$ docker-compose up -d`
+````
+$ docker-compose build
+$ docker-compose up -d
+````
 
 The site is now available on http://localhost
